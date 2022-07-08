@@ -28,6 +28,7 @@ main {
 .yeet {
   animation: spin 0.5s linear infinite;
   width: 50%;
+  max-width: 500px;
 }
 
 @keyframes pain {
