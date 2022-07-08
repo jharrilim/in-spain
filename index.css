@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 8px;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+main {
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  gap: 6em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.yeet {
+  animation: spin 0.5s linear infinite;
+  width: 50%;
+}
+
+@keyframes pain {
+  from {
+    filter: 
+      saturate(100%)
+      hue-rotate(0deg)
+      contrast(1);
+  }
+
+  to {
+    filter:
+      saturate(200%)
+      hue-rotate(360deg)
+      contrast(2);
+  }
+}
+
+.pain {
+  animation: pain 60s alternate-reverse infinite;
+  max-width: 100%;
+}
+
+.sain {
+  font-size: 2em;
+}
